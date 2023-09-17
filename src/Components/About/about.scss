@@ -11,7 +11,7 @@
         display: flex;
         width: 50%;
 
-        @media (min-width: 374px) and (max-width: 599px) {
+        @media (min-width: 374px) and (max-width: 914px) {
             flex-direction: column;
             width: 100%;
         }
@@ -34,7 +34,7 @@
         padding-left: 30px;
         color: white;
 
-        @media (min-width: 374px) and (max-width: 599px) {
+        @media (min-width: 374px) and (max-width: 914px) {
             width: 90%;
             display: block;
             margin-top: 20px;
@@ -52,7 +52,7 @@
             color: silver;
             font-weight: 400;
 
-            @media (min-width: 374px) and (max-width: 599px) {
+            @media (min-width: 374px) and (max-width: 914px) {
 
                 font-size: 18px;
             }

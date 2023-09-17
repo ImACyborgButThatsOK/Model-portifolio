@@ -13,7 +13,7 @@
         font-size: 50px;
         font-weight: 300;
 
-        @media (min-width: 374px) and (max-width: 599px) {
+        @media (min-width: 374px) and (max-width: 914px) {
 
             font-size: 40px;
 
@@ -28,7 +28,7 @@
         align-items: center;
         justify-content: center;
 
-        @media (min-width: 374px) and (max-width: 599px) {
+        @media (min-width: 374px) and (max-width: 914px) {
 
             font-size: 18px;
             flex-direction: column;
@@ -101,7 +101,7 @@
                     cursor: pointer;
                 }
 
-                @media (min-width: 374px) and (max-width: 599px) {
+                @media (min-width: 374px) and (max-width: 914px) {
                     font-size: 20px;
                     text-align: center;
                 }
