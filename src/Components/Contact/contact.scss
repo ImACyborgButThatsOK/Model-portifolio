@@ -35,6 +35,12 @@
             gap: 20px;
         }
 
+        @media (max-width: 350px) {
+            font-size: 18px;
+            flex-direction: column;
+            gap: 20px;
+        }
+
         .socialMidia {
 
             flex: 1;
@@ -102,6 +108,11 @@
                 }
 
                 @media (min-width: 374px) and (max-width: 914px) {
+                    font-size: 20px;
+                    text-align: center;
+                }
+
+                @media (max-width: 350px) {
                     font-size: 20px;
                     text-align: center;
                 }

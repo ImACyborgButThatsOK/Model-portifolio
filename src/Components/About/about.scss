@@ -16,6 +16,12 @@
             width: 100%;
         }
 
+        @media (max-width: 350px) {
+            flex-direction: column;
+            width: 100%;
+            gap: 20px;
+        }
+
         .about-container {
             flex: 1;
             display: flex;
