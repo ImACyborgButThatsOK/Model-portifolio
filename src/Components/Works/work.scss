@@ -49,7 +49,15 @@
             border-top: 1px solid silver;
             border-right: 1px solid silver;
             transition: all ease 0.5s;
-            width: 100%;
+
+            @media (min-width: 374px) and (max-width: 599px) {
+                width: 100%;
+            }
+
+            @media (max-width: 350px) {
+                width: 100%;
+            }
+
         }
 
         img:nth-child(even) {
