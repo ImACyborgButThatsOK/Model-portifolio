@@ -4,6 +4,12 @@
     display: flex;
     border-bottom: 1px solid rgb(136, 136, 136);
 
+    @media (min-width: 374px) and (max-width: 599px) {
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
+
     .img-container {
         border-right: 1px solid #808080;
         flex: 1;
@@ -11,6 +17,14 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @media (min-width: 374px) and (max-width: 599px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+
 
         img {
             width: 30%;
@@ -29,6 +43,7 @@
             filter: brightness(0.7);
             cursor: pointer;
         }
+
     }
 
     .info-container {
@@ -44,7 +59,14 @@
             width: 80%;
             font-size: 70px;
             margin-bottom: 35px;
+
+            @media (min-width: 374px) and (max-width: 599px) {
+
+                font-size: 30px;
+            }
         }
+
+
 
         .info-desc {
             width: 80%;
@@ -53,6 +75,10 @@
             line-height: 35px;
             color: rgb(218, 218, 218);
 
+            @media (min-width: 374px) and (max-width: 599px) {
+
+                font-size: 20px;
+            }
         }
     }
 }

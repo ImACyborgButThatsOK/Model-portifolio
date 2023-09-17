@@ -6,11 +6,18 @@
     padding: 10px;
     border-top: 1px solid silver;
 
+
     .contact-title {
         text-align: center;
         margin: 20px 0px;
         font-size: 50px;
         font-weight: 300;
+
+        @media (min-width: 374px) and (max-width: 599px) {
+
+            font-size: 40px;
+
+        }
     }
 
     .contact-info {
@@ -20,6 +27,13 @@
         display: flex;
         align-items: center;
         justify-content: center;
+
+        @media (min-width: 374px) and (max-width: 599px) {
+
+            font-size: 18px;
+            flex-direction: column;
+            gap: 20px;
+        }
 
         .socialMidia {
 
@@ -85,6 +99,11 @@
                 &:hover {
                     filter: brightness(0.7);
                     cursor: pointer;
+                }
+
+                @media (min-width: 374px) and (max-width: 599px) {
+                    font-size: 20px;
+                    text-align: center;
                 }
             }
         }

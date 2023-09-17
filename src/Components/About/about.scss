@@ -9,8 +9,12 @@
 
     .about-container {
         display: flex;
-
         width: 50%;
+
+        @media (min-width: 374px) and (max-width: 599px) {
+            flex-direction: column;
+            width: 100%;
+        }
 
         .about-container {
             flex: 1;
@@ -30,6 +34,12 @@
         padding-left: 30px;
         color: white;
 
+        @media (min-width: 374px) and (max-width: 599px) {
+            width: 90%;
+            display: block;
+            margin-top: 20px;
+        }
+
         .about-info-title {
             font-size: 50px;
             margin-bottom: 20px;
@@ -41,6 +51,11 @@
             line-height: 35px;
             color: silver;
             font-weight: 400;
+
+            @media (min-width: 374px) and (max-width: 599px) {
+
+                font-size: 18px;
+            }
         }
     }
 }
