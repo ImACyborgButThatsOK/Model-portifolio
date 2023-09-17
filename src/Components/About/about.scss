@@ -1,0 +1,46 @@
+.about {
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    .about-container {
+        display: flex;
+
+        width: 50%;
+
+        .about-container {
+            flex: 1;
+            display: flex;
+            justify-content: flex-end;
+
+            .about-img {
+                object-fit: cover;
+
+            }
+        }
+    }
+
+    .about-info {
+        flex: 1;
+        width: 100%;
+        padding-left: 30px;
+        color: white;
+
+        .about-info-title {
+            font-size: 50px;
+            margin-bottom: 20px;
+            font-weight: 300;
+        }
+
+        .about-info-desc {
+            font-size: 23px;
+            line-height: 35px;
+            color: silver;
+            font-weight: 400;
+        }
+    }
+}
